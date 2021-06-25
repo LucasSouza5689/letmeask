@@ -7,7 +7,7 @@ import '../styles/auth.scss';
 import firebase from 'firebase';
 import { auth } from '../services/firebase';
 import { useContext } from 'react';
-import { AuthContext } from '../App';
+import { AuthContext } from '../contexts/AuthContext';
 
 
 export function Home() {
